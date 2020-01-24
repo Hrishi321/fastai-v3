@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/drive/folders/1zyUT3gPtSfSbY3i17QYAiMJKl6ZOthun?usp=sharing'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1Ask4mYe5pzgS20AYpFFBqfVVpZGPHbMo?alt=media&key=AIzaSyBDJg73kjIBhcRUtNzuOWNgq5Sx7Bt9OoA'
 export_file_name = 'resnet50.h5'
 
 classes = ['nv', 'mel', 'bkl','bcc','akiec','vasc','df']
